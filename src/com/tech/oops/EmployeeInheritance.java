@@ -21,11 +21,9 @@ class Employee{
 	}
 }
 class HRManager extends Employee{
-	long salary;
 
-	public HRManager(long salary,long salary1) {
+	public HRManager(long salary) {
 		super(salary);
-		this.salary=salary1;
 	}
 	public long getSalary() {
 		return salary;
@@ -41,7 +39,7 @@ class HRManager extends Employee{
 public class EmployeeInheritance {
 	public static void main(String[] args) {
 		Employee employee=new Employee(30000);
-		HRManager hrManager=new HRManager(30000,50000);
+		HRManager hrManager=new HRManager(50000);
 		System.out.println("Employee Salary : "+employee.getSalary());
 		employee.work();
 		System.out.println("HR manager salary : "+hrManager.getSalary());
