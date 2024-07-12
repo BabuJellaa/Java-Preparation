@@ -4,7 +4,7 @@ package com.tech.tricky;
 
 public class PrintNumbersWithoutLoop {
 	public static void printNumbers(int number) {
-		if(number<=100) {
+		if(number<=10) {
 			System.out.println(number);
 			printNumbers(number+1);
 		}
