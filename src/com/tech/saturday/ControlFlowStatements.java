@@ -6,7 +6,7 @@ public class ControlFlowStatements {
 		
 		int a=5;
 		int b=4;
-		int c=13;
+		int c=1;
 		
 		if(a>b && a>c) {
 			System.out.println("Greatest number is a : "+a);

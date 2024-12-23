@@ -11,8 +11,7 @@ public class Main {
 	            if (sc.get(score[0]).size() > 5) {
 	                sc.get(score[0]).poll();
 	            }
-	        }
-	        
+	        }  
 	        List<int[]> result = new ArrayList<>();
 	        
 	        for (Map.Entry<Integer, PriorityQueue<Integer>> entry : sc.entrySet()) {

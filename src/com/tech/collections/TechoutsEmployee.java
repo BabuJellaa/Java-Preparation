@@ -24,10 +24,10 @@ public class TechoutsEmployee {
 
 		/* Increment the salary of employeesin the HR department by 10 percent */
 		hrSalaryIncrement(employees,10);
-		
+
 		/* Find the oldest employee in the Organization */
 		getOldestEmployee(employees);
-		
+
 		/* Find the youngest employee in the Organization */
 		getYoungestEmployee(employees);
 	}
@@ -80,7 +80,7 @@ public class TechoutsEmployee {
 		}
 		System.out.println();
 	}
-	
+
 	private static void getOldestEmployee(List<TechoutsEmployee> employees) {
 		int age=0;
 		List<TechoutsEmployee> oldestEmployee = new ArrayList<TechoutsEmployee>();
@@ -97,7 +97,7 @@ public class TechoutsEmployee {
 		System.out.println("Oldest Employee : "+oldestEmployee);
 		System.out.println();
 	}
-	
+
 	private static void getYoungestEmployee(List<TechoutsEmployee> employees) {
 		List<TechoutsEmployee> youngestEmployee = new ArrayList<TechoutsEmployee>();
 		int age=employees.get(0).age;
